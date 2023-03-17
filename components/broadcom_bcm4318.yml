@@ -1,0 +1,10 @@
+
+broadcom_bcm4318:
+  vendor: Broadcom
+  model: BCM4318
+  class: WiFi controller
+  frequency bands:
+    - 2.4 GHz
+  standards:
+    - 802.11b
+    - 802.11g

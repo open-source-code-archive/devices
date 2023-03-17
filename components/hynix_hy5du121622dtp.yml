@@ -1,0 +1,9 @@
+
+hynix_hy5du121622dtp:
+  vendor: Hynix
+  model: HY5DU121622DTP
+  class: SDRAM
+  interface: DDR400
+  banks: 32M x 16
+  size: 512 Mb
+  latency: CL3
