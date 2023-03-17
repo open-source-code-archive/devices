@@ -1,0 +1,34 @@
+
+netgear_gs604_v5:
+  - class: networking
+  - type: switch
+  - vendor: Netgear
+  - model: GS605
+  - revision: v5
+  - dimensions:
+    - x: "?"
+    - y: "?"
+    - z: "?"
+    - weight: "?"
+  - capabilities:
+    - power:
+      - voltage: 5 VDC
+      - maxmimum_current: 0.7 A
+      - plug: barrel jack
+    - gpio:
+      - leds:
+        - count: 6
+    - ethernet:
+      - type: "1 GbE"
+      - count: 5
+  - components:
+    - soc:
+      - model: Broadcom BCM1234(?)
+      - type: broadcom_bcm1234(?)
+      - package: BGA
+      - interfaces:
+        - leds:
+          - count: 5
+          # TODO: Which GPIO pins?
+  - urls:
+    - Product page: https://www.netgear.de/support/product/GS605

@@ -1,0 +1,6 @@
+
+netgear:
+  - short: Netgear
+  - long: "Netgear, Inc."
+  - urls:
+    - Open Source Code downloads: https://kb.netgear.com/2649/NETGEAR-Open-Source-Code-for-Programmers-GPL
