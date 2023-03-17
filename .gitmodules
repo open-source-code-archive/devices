@@ -1,0 +1,9 @@
+
+[submodule "assets/network-attached-storage"]
+	path = assets/network-attached-storage
+	url = https://github.com/matzes-hardware/network-attached-storage
+
+[submodule "assets/routers-modems-switches"]
+	path = assets/routers-modems-switches
+	url = https://github.com/matzes-hardware/routers-modems-switches
+
