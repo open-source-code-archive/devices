@@ -10,22 +10,31 @@ thomson_tg787v:
     usb:
       type: 2.0
       count: 2
+  pictures:
+    - url: https://openwrt.org/_media/media/thomson/tg787v/tg787v_case_thomson.jpg
+      title: Thomson TG787v
+  urls:
+    OpenWRT Wiki: https://openwrt.org/toh/thomson/tg787v
   components:
     soc:
-      type: broadcom_bcm6358
-      frequency: 300 MHz
+      vendor: Broadcom
+      model: BCM6358
       package: BGA
+      frequency: 300 MHz
     flash:
-      type: spansion_s29gl128p90tfcr2
+      vendor: Spansion
+      model: S29GL128P90-TFCR2
       size: 16 MB
       picture: https://openwrt.org/_media/media/thomson/tg787v/pic_0243_s29gl128p90.jpg
     dram:
-      type: hynix_hy5du121622dtp
+      vendor: Hynix
+      model: HY5DU121622DTP
       size: 64 MB
       frequency: 200 MHz
       picture: https://openwrt.org/_media/media/thomson/tg787v/pic_0244_hy5du121622dtp.jpg
     wifi:
-      type: broadcom_bcm4318
+      vendor: Broadcom
+      model: BCM4318
       picture: https://openwrt.org/_media/media/thomson/tg787v/pic_0231_bcm4318kfbg.jpg
     wireless amplifier:
       vendor: ABC Semiconductor
@@ -37,7 +46,3 @@ thomson_tg787v:
     unknown2:
       model: FXS50IF1-02-A1-GE1-L
       picture: https://openwrt.org/_media/media/thomson/tg787v/pic_0236_fxs50if1-02-a1-qe1-l.jpg
-  pictures:
-    device preview: https://openwrt.org/_media/media/thomson/tg787v/tg787v_case_thomson.jpg
-  urls:
-    OpenWRT Wiki: https://openwrt.org/toh/thomson/tg787v
